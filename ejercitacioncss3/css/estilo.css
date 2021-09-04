@@ -1,0 +1,89 @@
+@import url ('https://fonts.googleapis.com/css2? family = Permanent + Marker & display = swap');
+
+
+
+
+body{
+	background-color: #000000;
+	font-family: 'Marcador permanente', cursiva;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family:'Marcador permanente', cursiva;
+	margin-bottom: 15px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Marcador permanente', cursiva;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Marcador permanente', cursiva;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.foto1 {
+	filter: opacity(1);
+margin-top: 10px;
+}
+
+.foto2 {
+	filter: sepia(1);
+	margin-top: 10px;
+	}
+
+
+.multifondo {
+	width: 800px;
+	height: 600px; 
+	background-image: url(../img/conejos.jpg),
+	url(../img/dados.png);
+}
+
+#columnas {
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 5px solid #ff7675;
+}
+
+.bordes {
+	border-top-left-radius: 500px;
+	border-bottom-right-radius: 400px;
+}
+
+.sombra {
+	width: 960px;
+	height: 640px;
+	background-color: #fab1a0;
+	box-shadow: 20px 20px 10px #ffffff,
+				25px 25px 20px #00b894,
+				inset 40px 40px 30px #cdb4db;
+}
+
+.transparencia {
+	width: 960px;
+	height: 640px;
+	background: rgba(10, 90, 100, 1);
+}
+
+.degradado {
+	width: 960px;
+	height: 640px;
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+
+}
